@@ -1,5 +1,13 @@
 #include <iostream>
 using namespace std;
 int main(void) {
-    cout << "Hello, World!" << endl;
+    int i;
+    i=0;
+    while (i<6)
+    {
+        cout << "Hello, Jabier!" << endl;
+        i++;
+    }
+    
+   
 }
