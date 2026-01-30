@@ -5,7 +5,7 @@ int main(void) {
     i=0;
     while (i<6)
     {
-        cout << "Hello, Javier!" << endl;
+        cout << "Hello, Fran!" << endl;
         i++;
     }
 }
