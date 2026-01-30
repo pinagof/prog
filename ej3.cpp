@@ -5,7 +5,7 @@ int main(void) {
     a=0;
     while (a<728)
     {
-        cout << "Pon me un 5 Javier porfavor" << endl;
+        cout << "Podrias ayudar mas en casa" << endl;
         a++;
     } 
 }
