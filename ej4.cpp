@@ -8,4 +8,4 @@ int main(void) {
         cout << "Podrias ayudar mas en casa" << endl;
         o++;
     }
-}
+} 
