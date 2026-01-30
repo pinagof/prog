@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int p1(void) {
+void p1(void) {
      int i;
      i=0;
      while (i<6)
@@ -16,7 +16,7 @@ int p1(void) {
         e++;
     }
 }
-int p2(void) {
+void p2(void) {
     int a;
     a=0;
     while (a<728)
@@ -25,7 +25,7 @@ int p2(void) {
         a++;
     } 
 }
-int p3(void) {
+void p3(void) {
     int o;
     o=0;
     while (o<15000)
@@ -33,9 +33,20 @@ int p3(void) {
         cout << "Eres un maquina, una fiera, un mastodonte" << endl;
         o++;
     }
-} 
+}
 
-if (condition)
-{
-    /* code */
+int main() {
+    cout << "Buenas, elige una opción: alabar, solicitar o subir autoestima" << endl;
+    string option;
+    getline(cin, option);
+    if (option == "alabar") {
+        p1();
+    }
+    if (option == "solicitar") {
+        p2();
+    }
+    if (option == "subir autoestima") {
+        p3();
+    }
+    return 0;
 }
