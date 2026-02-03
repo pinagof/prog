@@ -12,7 +12,7 @@ void p1(void) {
     e=0;
     while (e<1299)
     {
-        cout << "Eres un maquina, Fran!" << endl;
+        cout << "Eres un maquina, Fran!\n Eres un crack! \n" ;
         e++;
     }
 }
@@ -38,7 +38,7 @@ void p3(void) {
 int main() {
     cout << "Buenas, elige una opción: alabar, solicitar o subir autoestima" << endl;
     string option;
-    getline(cin, option);
+    cin >> option;
     if (option == "alabar") {
         p1();
     }
