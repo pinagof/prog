@@ -6,17 +6,17 @@ int main(){
         cin >> n;
         int valor[n];
     
-        int 1;
+        int i;
         i=0;
         while (i< n){
             cout << "Dame el numero "<< i <<"\n";
-            cin >> sumar[i];
+            cin >> valor[i];
              i++;
         }
         int j;
         j=0;
         while(j<n){
-            cout << "<<valor"<<j<<"es"<<valor[j]<<"\n";
+            cout << "El valor "<<j<<" es "<<valor[j]<<"\n";
             j++;
         } 
         }
