@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-   int n;
+    int n;
     cout << "Cuantos numeros me vas a dar\n";
     cin >> n;
     int valor[n];
@@ -21,10 +21,17 @@ int main(){
                 if (valor[j] > mayor){mayor = valor[j];}
                 if (valor[j] < menor){menor = valor[j];}
             j++;
-    }        
+    }   
+    int sum=0;  
+    int k;
+    k=0
+    while (k<n){
+        sum += valor[k]
+        k++
+    }   
     cout << "El mayor es: " << mayor << "\n";
     cout << "El menor es: " << menor << "\n";
-    cout << "La media de los numeros dados es "<< valor[i]<<"\n" "
-
+    cout << "la media es: " << sum << "\n";
 }
+   
         
