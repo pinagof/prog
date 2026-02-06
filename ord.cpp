@@ -17,11 +17,10 @@ int main(){
         j=0;
         int mayor = valor[0];
         int menor = valor[0];
-        while(j<n){
+      
                 if (valor[j] > mayor){mayor = valor[j];}
                 if (valor[j] < menor){menor = valor[j];}
-            j++;
-        } 
+        
         cout << "El mayor es: " << mayor << "\n";
         cout << "El menor es: " << menor << "\n";
         }
