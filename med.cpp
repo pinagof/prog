@@ -22,16 +22,16 @@ int main(){
                 if (valor[j] < menor){menor = valor[j];}
             j++;
     }   
-    int sum=0;  
-    int k;
-    k=0
-    while (k<n){
-        sum += valor[k]
-        k++
-    }   
     cout << "El mayor es: " << mayor << "\n";
     cout << "El menor es: " << menor << "\n";
-    cout << "la media es: " << sum << "\n";
+     int sum=0;  
+    int k;
+    k=0;
+    while (k<n){
+        sum += valor[k];
+        k++;
+    }  
+    cout << "la media es: " << (double)sum/n  << "\n";
 }
    
         
