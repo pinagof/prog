@@ -24,6 +24,13 @@ int main(){
                 if (valor[j] < menor){menor = valor[j];psmenor = j;}
             j++;
     }      
+    temp=valor[0];
+    valor[0]=valor[psmenor];
+    valor[psmenor]=temp;
+    
+    temp=valor[n-1];
+    valor[n-1]=valor[psmayor];
+    valor[psmayor]=temp;
 
     cout << "El mayor es: " << mayor << " en la posicion: " << psmayor << "\n";
     cout << "El menor es: " << menor << " en la posicion: " << psmenor << "\n";
