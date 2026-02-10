@@ -7,7 +7,7 @@ int main(){
     cin >> n;
     int valor[n];
     
-    int i;
+    float i;
     i=0;
         while (i< n){
             cout << "Dame el numero "<< i <<"\n";
