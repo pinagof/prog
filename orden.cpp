@@ -24,5 +24,11 @@ int main(){
     int temp;
     vl[i]=menor;
     vl[psmenor]=temp;
+
+
+    for (int k=0; k<n; k++){
+        cout << vl[k] << " ";
     }
-    cout << "Los numeros ordenados son:\n";   
+ 
+
+    
