@@ -1,5 +1,4 @@
 #include <iostream>
-defining int float
 using namespace std;
 int main(){
    int n;
