@@ -12,6 +12,14 @@ int main(){
         cout << "Dame el numero "<< i <<"\n";
             cin >> vl[i];
     }
+
+    // mostrar los números ingresados originalmente
+    cout << "\nNumeros que me diste anteriormente:\n";
+    for (int k = 0; k < n; k++){
+        cout << vl[k] << " ";
+    }
+    cout << "\n";
+
     int menor, psmenor, mayor, psmayor;
 int i, j, k;
     for (int i=0; i<n; i++){
@@ -30,8 +38,9 @@ int i, j, k;
     }
 
     // mostrar resultados
+    cout << "\nNumeros ordenados:\n";
     for (int k = 0; k < n; k++){
-        cout << vl[k] << " ";
+        cout << vl[k] << "\n";
     }
  
 }
