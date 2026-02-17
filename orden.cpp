@@ -2,6 +2,7 @@
 using namespace std;
 int main(){
    int n;
+   int temp;
     cout << "Cuantos numeros me vas a dar y quieres ordenar\n";
     cin >> n;
     int vl[n];
@@ -13,15 +14,17 @@ int main(){
     int menor, psmenor, mayor, psmayor;
 
     for (int i=0; i<n; i++){
+        // definimos el intervalo a usar para la busqqueda (i->n) y luego pasaremos el valor encontrado a la posicion inicial
         menor=vl[i];psmenor=i;
+        //Buscamos el menor del intervalo definido
         for (int j=i+1; j<n; j++){
             if (vl[j]<menor){
                 menor=vl[j]; psmenor=j;
             }
         }
     }
-    int temp;
-    vl[i]=menor;
+    temp=vl[i];
+    vl[i]=vl[psmenor];
     vl[psmenor]=temp;
 
 
