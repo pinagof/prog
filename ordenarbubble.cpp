@@ -1,15 +1,13 @@
 #include <iostream>
 using namespace std;
-int ordenar(){
-   int n;
-    cout << "Cuantos numeros me vas a dar y quieres ordenar\n";
-    cin >> n;
-    int vl[n];
+void dame (int n, int *vl){
     for (int i=0; i<n; i++){
         cout << "Dame el numero "<< i <<"\n";
             cin >> vl[i];
     }
-    bool cambio;
+}
+void ordename(int n, int *vl){
+     bool cambio;
     int temp;
     do{
         cambio=false;
@@ -21,16 +19,20 @@ int ordenar(){
                 cambio=true;
             }
         }
-    }while(cambio);
-    cout << "Los numeros ordenados son:\n";
-    for (int i=0; i<n; i++){
-        cout << vl[i] << "\n";
-    
-    }
+    } while(cambio);
 }
-
+void sacalos (int n, int *vl ){
+      for (int k=0; k<n; k++){
+        cout << vl[k] << "\n";
+}   
+} 
 int main(){
-    ordenar();
-    return 0;
+    int n;
+    cout << "Cuantos numeros me vas a dar y quieres ordenar\n";
+    cin >> n;
+    int vl[n];
+    dame(n,&vl[0]);
+    ordename(n,&vl[0]);
+    sacalos(n,&vl[0]);
+
 }
-    
