@@ -13,20 +13,24 @@ int main(){
         cout <<"X";
         n=n-10;
     } 
-    if (n>=9){
+    if (n==9){
         cout <<"IX";
         n=n-9;
     }
     
-    if(n=5){
+    if(n>=5){
         cout<<"V";
         n=n-5;
-    } 
-    if(n>5){
-        for (int k=0; k<n; k++){
-            cout <<"I";
-            n=n-1;
-    
+        }
+
+    if(n==4){
+        cout<<"IV";
+        n=n-4;
+        }
+
+    for(int j=0; j<n; j++){
+        cout<<"I";
         }
     }
-}
+
+
