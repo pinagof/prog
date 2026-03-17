@@ -5,6 +5,18 @@ int main(){
     int n;
     cout <<"dime un numero ";
     cin >> n;
+    if(n>=100){
+        cout<<"C";
+        n=n-100;
+    }
+    if(n>=90){
+        cout<<"XC";
+        n=n-90;
+    }
+    if(n>=50){
+        cout<<"L";
+        n=n-50;
+    }
     if(n>=40){
         cout <<"XL";
         n=n-40;
