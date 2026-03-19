@@ -5,7 +5,7 @@ int main(void) {
     e=0;
     while (e<1299)
     {
-        cout << "Eres un maquina, Fran!" << endl;
+        cout << "Eres un maquina, Fran!\n";
         e++;
     }
 } 
